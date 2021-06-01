@@ -1,0 +1,29 @@
+/bin/
+/build/
+/dist/
+/vendor/
+/pke-single-config.yaml
+/pke-multi-config.yaml
+
+**/.vagrant*
+.DS_Store
+
+# pipeline openapi files
+/pipeline-openapi.yaml
+/.gen/pipeline/.travis.yml
+/.gen/pipeline/git_push.sh
+
+# IDE integration
+/.vscode/*
+!/.vscode/tasks.json
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/copyright/
+!/.idea/*.iml
+!/.idea/externalDependencies.xml
+!/.idea/go.imports.xml
+!/.idea/modules.xml
+!/.idea/runConfigurations/
+!/.idea/scopes/
+
+/*-cloudimg-console.log

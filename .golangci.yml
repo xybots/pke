@@ -1,0 +1,40 @@
+linters:
+    enable-all: true
+    disable:
+        - maligned
+        - funlen
+        - gomnd
+        - wsl
+        - testpackage
+        - goerr113
+        - nestif
+
+        # TODO: fix these
+        - gosimple
+        - staticcheck
+        - ineffassign
+        - structcheck
+        - lll
+        - gochecknoglobals
+        - nakedret
+        - gosec
+        - unparam
+        - interfacer
+        - unused
+        - golint
+        - stylecheck
+        - bodyclose
+        - govet
+        - godot
+        - whitespace
+        - godox
+        - gocognit
+
+linters-settings:
+    golint:
+        min-confidence: 0.1
+
+issues:
+    exclude:
+        - Using the variable on range scope `tt` in function literal
+        - Using the variable on range scope `tc` in function literal
